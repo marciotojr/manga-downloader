@@ -1,0 +1,26 @@
+{
+  "name": "webcralwer",
+  "version": "1.0.0",
+  "description": "Exemplo de webcrawler para a disciplina de Sistemas Distribuídos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcio jr",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.1.0",
+    "get-urls": "^9.1.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.8",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^1.18.1"
+  },
+  "devDependencies": {
+    "circular-json": "^0.5.9",
+    "firebase-functions-test": "^0.1.6"
+  }
+}
